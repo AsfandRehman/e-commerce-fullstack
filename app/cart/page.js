@@ -6,7 +6,7 @@ import { useAppContext } from '@/context/AppContext'
 import { useParams } from 'next/navigation'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   const {productsData} = useAppContext()
     const {id} = useParams() 
     const product = productsData.find((e)=> e._id === Number(id));
@@ -22,4 +22,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

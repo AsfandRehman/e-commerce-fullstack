@@ -8,7 +8,7 @@ import { useAppContext } from '@/context/AppContext'
 import React from 'react'
 import { use } from 'react';
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const {productsData} = useAppContext()
   const {id} = use(params);
   const product = productsData.find((e)=> e._id === Number(id));
@@ -25,4 +25,4 @@ const page = ({ params }) => {
   )
 }
 
-export default page
+export default Page

@@ -77,3 +77,10 @@ export default function ProductList() {
   );
 }
 
+export function ProductListPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProductList />
+    </Suspense>
+  );
+}

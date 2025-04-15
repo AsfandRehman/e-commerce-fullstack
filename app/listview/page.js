@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/listview/BreadCrumb'
 import Home from '@/components/listview/Home'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   return (
     <div>
         <Breadcrumb/>
@@ -12,4 +12,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

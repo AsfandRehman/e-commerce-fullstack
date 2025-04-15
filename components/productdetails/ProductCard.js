@@ -49,7 +49,7 @@ export default function ProductCard({ id }) {
         {[...Array(4)].map((_, i) => (
           <Star key={i} size={14} fill="orange" />
         ))}
-        <span className="text-gray-700 text-xs">9.3 · 32 reviews · 154 sold</span>
+        <span className="text-gray-700 text-xs">9.3  32 reviews  154 sold</span>
       </div>
     </div>
 
@@ -92,7 +92,7 @@ export default function ProductCard({ id }) {
         <button onClick={handleCart} type="submit" className="bg-blue-600 cursor-pointer text-white px-3 py-1.5 rounded text-sm">
           Add to Cart
         </button>
-        <button className="text-blue-600 text-xxs underline">Seller's profile</button>
+        <button className="text-blue-600 text-xxs underline">Sellers profile</button>
       </div>
     </div>
   </div>
